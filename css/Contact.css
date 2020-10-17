@@ -1,0 +1,158 @@
+body{
+  background-color: #e6e6e6;
+}
+
+
+#a{
+  text-align: center;
+  font-size: 75px;
+  color: #d92626;
+  background-color: #d9d9d9;
+  border: 2px solid red;
+  border-radius: 15px 50px;
+  margin: auto;
+  width: 60%;
+  border: 3px solid red;
+  padding: 20px;
+  font-family: Matura MT Script Capitals;
+  }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d9d9d9;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-family: Lucida Console;
+}
+
+li {
+  float: left;
+  border-right:3px solid red;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: #d92626;
+}
+
+.a{
+  text-align: center;
+}
+.d{
+  text-align: center;
+  color: red;
+  background-color: #d9d9d9;
+  border-radius: 12px;
+  margin: auto;
+  width: 30%;
+  border: 3px solid red;
+  padding: 20px;
+  font-size: 30px;
+}
+#h {
+  width: 200px;
+  padding: 16px 20px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  margin-left: 575px;
+}
+#z {
+  text-align: center;
+  color: red;
+  background-color: #d9d9d9;
+  font-size: 50px;
+}
+.k{
+  text-align: center;
+  color: red;
+}
+input[type=button] {
+  background-color: #d9d9d9;
+  border: 2px solid red;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 600px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #d9d9d9;
+  border: 2px solid red;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 525px;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.f {
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#lname{
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.g{
+  text-align: center;
+  color: red;
+  background-color: #d9d9d9;
+  font-family: Lucida Handwriting;
+  font-size: 30px; 
+}
